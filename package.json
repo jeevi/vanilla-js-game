@@ -4,8 +4,16 @@
   "description": "my first javascript project",
   "main": "index.js",
   "scripts": {
+    "dev": "parcel src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "chiranjeevi balawat",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.2.1"
+  },
+  "browserslist": [
+    "last 2 firefox versions"
+  ]
 }
